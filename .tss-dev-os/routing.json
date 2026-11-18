@@ -1,0 +1,13 @@
+{
+  "managedBy": "tss-dev-os",
+  "schemaVersion": 1,
+  "activeProfile": "codex",
+  "roles": {
+    "pm": "codex",
+    "orchestrator": "codex",
+    "implementer": "codex",
+    "reviewer": "codex",
+    "question": "codex"
+  },
+  "note": "Change with: tss-dev-os route . --profile <codex|claude-code|hybrid> or --<role> <codex|claude-code|antigravity|human>"
+}

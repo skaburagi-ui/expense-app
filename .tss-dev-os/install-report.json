@@ -1,0 +1,160 @@
+{
+  "managedBy": "tss-dev-os",
+  "version": "0.3.0",
+  "mode": "adopt",
+  "projectName": "expense-workflow-prototype",
+  "profile": "codex",
+  "roles": {
+    "pm": "codex",
+    "orchestrator": "codex",
+    "implementer": "codex",
+    "reviewer": "codex",
+    "question": "codex"
+  },
+  "adapterOptions": {
+    "noClaudeAdapter": false,
+    "noAgents": false
+  },
+  "context": {
+    "projectName": "expense-workflow-prototype",
+    "description": "未記入。READMEや関係者への確認により補完すること。",
+    "technologies": [
+      "Node.js / JavaScript / TypeScript"
+    ],
+    "scripts": [
+      "start",
+      "test"
+    ],
+    "branch": "main",
+    "dirty": true,
+    "submodules": false,
+    "rootItems": [
+      ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "DESIGN.md",
+      "README.md",
+      "app.mjs",
+      "index.html",
+      "package.json",
+      "server.mjs",
+      "start-local.cmd",
+      "style.css",
+      "workflow.mjs",
+      "workflow.test.mjs"
+    ],
+    "docs": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md"
+    ],
+    "envFiles": [
+      "未検出"
+    ],
+    "verifyCommands": [
+      {
+        "category": "test",
+        "command": "npm run test",
+        "source": "package.json scripts.test",
+        "kind": "候補・未確認"
+      }
+    ]
+  },
+  "summary": {
+    "created": 21,
+    "updated": 1,
+    "unchanged": 0,
+    "conflicts": 0
+  },
+  "actions": [
+    {
+      "status": "updated",
+      "path": "AGENTS.md",
+      "note": "既存内容を維持して管理区画を追記"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/DEVELOPMENT_OS.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/PM.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/ORCHESTRATOR.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/IMPLEMENTER.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/REVIEWER.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/QUESTION.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/WORKFLOW.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/HANDOFF.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/REVIEW_CHECKLIST.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/development/AGENT_ROUTING.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/project/PROJECT.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/project/ARCHITECTURE.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/project/DECISIONS.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/project/TASKS.md"
+    },
+    {
+      "status": "created",
+      "path": "docs/project/STATUS.md"
+    },
+    {
+      "status": "created",
+      "path": "templates/development/PROJECT_TEMPLATE.md"
+    },
+    {
+      "status": "created",
+      "path": "templates/development/DECISION_TEMPLATE.md"
+    },
+    {
+      "status": "created",
+      "path": "templates/development/TASK_TEMPLATE.md"
+    },
+    {
+      "status": "created",
+      "path": "templates/development/REVIEW_TEMPLATE.md"
+    },
+    {
+      "status": "created",
+      "path": "templates/development/HANDOFF_TEMPLATE.md"
+    },
+    {
+      "status": "created",
+      "path": ".tss-dev-os/routing.json"
+    }
+  ]
+}
